@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		518EB268222678D500E1E2F9 /* push.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = push.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		518EB268222678D500E1E2F9 /* TallyCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TallyCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		518EB26B222678D500E1E2F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		518EB26D222678D500E1E2F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		518EB270222678D500E1E2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		518EB272222678D600E1E2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		518EB275222678D600E1E2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518EB277222678D600E1E2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		518EB27C222678D600E1E2F9 /* pushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		518EB27C222678D600E1E2F9 /* TallyCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		518EB280222678D600E1E2F9 /* pushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushTests.swift; sourceTree = "<group>"; };
 		518EB282222678D600E1E2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		518EB287222678D600E1E2F9 /* pushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		518EB287222678D600E1E2F9 /* TallyCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		518EB28B222678D600E1E2F9 /* pushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushUITests.swift; sourceTree = "<group>"; };
 		518EB28D222678D600E1E2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		518EB2BC2228F6AF00E1E2F9 /* UserNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotification.swift; sourceTree = "<group>"; };
@@ -79,9 +79,9 @@
 		518EB25F222678D500E1E2F9 = {
 			isa = PBXGroup;
 			children = (
-				518EB26A222678D500E1E2F9 /* push */,
-				518EB27F222678D600E1E2F9 /* pushTests */,
-				518EB28A222678D600E1E2F9 /* pushUITests */,
+				518EB26A222678D500E1E2F9 /* TallyCounter */,
+				518EB27F222678D600E1E2F9 /* TallyCounterTests */,
+				518EB28A222678D600E1E2F9 /* TallyCounterUITests */,
 				518EB269222678D500E1E2F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		518EB269222678D500E1E2F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				518EB268222678D500E1E2F9 /* push.app */,
-				518EB27C222678D600E1E2F9 /* pushTests.xctest */,
-				518EB287222678D600E1E2F9 /* pushUITests.xctest */,
+				518EB268222678D500E1E2F9 /* TallyCounter.app */,
+				518EB27C222678D600E1E2F9 /* TallyCounterTests.xctest */,
+				518EB287222678D600E1E2F9 /* TallyCounterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		518EB26A222678D500E1E2F9 /* push */ = {
+		518EB26A222678D500E1E2F9 /* TallyCounter */ = {
 			isa = PBXGroup;
 			children = (
 				518EB2BC2228F6AF00E1E2F9 /* UserNotification.swift */,
@@ -107,33 +107,33 @@
 				518EB274222678D600E1E2F9 /* LaunchScreen.storyboard */,
 				518EB277222678D600E1E2F9 /* Info.plist */,
 			);
-			path = push;
+			path = TallyCounter;
 			sourceTree = "<group>";
 		};
-		518EB27F222678D600E1E2F9 /* pushTests */ = {
+		518EB27F222678D600E1E2F9 /* TallyCounterTests */ = {
 			isa = PBXGroup;
 			children = (
 				518EB280222678D600E1E2F9 /* pushTests.swift */,
 				518EB282222678D600E1E2F9 /* Info.plist */,
 			);
-			path = pushTests;
+			path = TallyCounterTests;
 			sourceTree = "<group>";
 		};
-		518EB28A222678D600E1E2F9 /* pushUITests */ = {
+		518EB28A222678D600E1E2F9 /* TallyCounterUITests */ = {
 			isa = PBXGroup;
 			children = (
 				518EB28B222678D600E1E2F9 /* pushUITests.swift */,
 				518EB28D222678D600E1E2F9 /* Info.plist */,
 			);
-			path = pushUITests;
+			path = TallyCounterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		518EB267222678D500E1E2F9 /* push */ = {
+		518EB267222678D500E1E2F9 /* TallyCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 518EB290222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "push" */;
+			buildConfigurationList = 518EB290222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "TallyCounter" */;
 			buildPhases = (
 				518EB264222678D500E1E2F9 /* Sources */,
 				518EB265222678D500E1E2F9 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = push;
+			name = TallyCounter;
 			productName = push;
-			productReference = 518EB268222678D500E1E2F9 /* push.app */;
+			productReference = 518EB268222678D500E1E2F9 /* TallyCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		518EB27B222678D600E1E2F9 /* pushTests */ = {
+		518EB27B222678D600E1E2F9 /* TallyCounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 518EB293222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "pushTests" */;
+			buildConfigurationList = 518EB293222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "TallyCounterTests" */;
 			buildPhases = (
 				518EB278222678D600E1E2F9 /* Sources */,
 				518EB279222678D600E1E2F9 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				518EB27E222678D600E1E2F9 /* PBXTargetDependency */,
 			);
-			name = pushTests;
+			name = TallyCounterTests;
 			productName = pushTests;
-			productReference = 518EB27C222678D600E1E2F9 /* pushTests.xctest */;
+			productReference = 518EB27C222678D600E1E2F9 /* TallyCounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		518EB286222678D600E1E2F9 /* pushUITests */ = {
+		518EB286222678D600E1E2F9 /* TallyCounterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 518EB296222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "pushUITests" */;
+			buildConfigurationList = 518EB296222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "TallyCounterUITests" */;
 			buildPhases = (
 				518EB283222678D600E1E2F9 /* Sources */,
 				518EB284222678D600E1E2F9 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				518EB289222678D600E1E2F9 /* PBXTargetDependency */,
 			);
-			name = pushUITests;
+			name = TallyCounterUITests;
 			productName = pushUITests;
-			productReference = 518EB287222678D600E1E2F9 /* pushUITests.xctest */;
+			productReference = 518EB287222678D600E1E2F9 /* TallyCounterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 518EB263222678D500E1E2F9 /* Build configuration list for PBXProject "push" */;
+			buildConfigurationList = 518EB263222678D500E1E2F9 /* Build configuration list for PBXProject "TallyCounter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				518EB267222678D500E1E2F9 /* push */,
-				518EB27B222678D600E1E2F9 /* pushTests */,
-				518EB286222678D600E1E2F9 /* pushUITests */,
+				518EB267222678D500E1E2F9 /* TallyCounter */,
+				518EB27B222678D600E1E2F9 /* TallyCounterTests */,
+				518EB286222678D600E1E2F9 /* TallyCounterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		518EB27E222678D600E1E2F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 518EB267222678D500E1E2F9 /* push */;
+			target = 518EB267222678D500E1E2F9 /* TallyCounter */;
 			targetProxy = 518EB27D222678D600E1E2F9 /* PBXContainerItemProxy */;
 		};
 		518EB289222678D600E1E2F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 518EB267222678D500E1E2F9 /* push */;
+			target = 518EB267222678D500E1E2F9 /* TallyCounter */;
 			targetProxy = 518EB288222678D600E1E2F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -484,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/push.app/push";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TallyCounter.app/TallyCounter";
 			};
 			name = Debug;
 		};
@@ -504,7 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/push.app/push";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TallyCounter.app/TallyCounter";
 			};
 			name = Release;
 		};
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		518EB263222678D500E1E2F9 /* Build configuration list for PBXProject "push" */ = {
+		518EB263222678D500E1E2F9 /* Build configuration list for PBXProject "TallyCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				518EB28E222678D600E1E2F9 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		518EB290222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "push" */ = {
+		518EB290222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "TallyCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				518EB291222678D600E1E2F9 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		518EB293222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "pushTests" */ = {
+		518EB293222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "TallyCounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				518EB294222678D600E1E2F9 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		518EB296222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "pushUITests" */ = {
+		518EB296222678D600E1E2F9 /* Build configuration list for PBXNativeTarget "TallyCounterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				518EB297222678D600E1E2F9 /* Debug */,
