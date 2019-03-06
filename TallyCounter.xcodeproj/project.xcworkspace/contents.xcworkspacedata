@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:push.xcodeproj">
+      location = "self:/Users/Matsumo_kunn/Documents/push/TallyCounter.xcodeproj">
    </FileRef>
 </Workspace>
